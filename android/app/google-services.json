@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "59326146157",
+    "project_id": "flash-chat-257cf",
+    "storage_bucket": "flash-chat-257cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59326146157:android:67a33fd13f63e817f38164",
+        "android_client_info": {
+          "package_name": "de.darko.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59326146157-jracsr4b03nheeb0ori6dpagb1b3dutl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLFtLHdhVrkZngys3_RyIqHJlF_TatdZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59326146157-jracsr4b03nheeb0ori6dpagb1b3dutl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
