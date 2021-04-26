@@ -1,5 +1,6 @@
 import 'package:flash_chat/constants.dart';
 import 'package:flash_chat/screens/chat_screen.dart';
+import 'package:flash_chat/screens/registration_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flash_chat/components/rounded_button.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -99,10 +100,17 @@ class _LoginScreenState extends State<LoginScreen> {
                 },
               ),
               TextButton(
-                  onPressed: () {
-                    resetPassword(email);
-                  },
-                  child: Text('Forgot your password?'))
+                onPressed: () {
+                  resetPassword(email);
+                },
+                child: Text('Forgot your password?'),
+              ),
+              TextButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, RegistrationScreen.id);
+                },
+                child: Text('Not a member yet? Sign up'),
+              )
             ],
           ),
         ),
